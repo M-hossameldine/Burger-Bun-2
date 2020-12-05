@@ -1,0 +1,220 @@
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'arial'; 
+    }
+   
+
+    h1 {
+        color: transparent;
+        -webkit-text-stroke-color: #e4e3df; 
+        -webkit-text-stroke-width: 2px;  
+        font-family: 'arial black'; 
+        font-size: 5.5rem;
+    }
+
+    p {
+        font-family: 'arial';
+        line-height: 1.5;
+        
+    }
+
+/* Buttons */
+    .colored-button {
+        background-color: #fbb033;
+        color: #38402d;
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 5px;
+        padding: 10px 35px;
+        margin-right: 60x;
+    }
+
+    .transparent-button {
+        background-color: transparent;
+        color: #fbb033;
+        text-decoration: none;
+        display: inline-block;
+        border: 1.5px #fbb033 solid;
+        border-radius: 5px;
+        padding: 10px 25px;
+        margin: 0x;
+    }
+
+/* Navigation Bar  */
+    nav {
+        /* background-color: teal; */
+    }
+    .brand {
+        /* line-height: 2; */
+        color: #fafaf8;
+        font-family: 'arial';
+        font-size: 1.5rem;
+        font-weight: bold;
+        position: relative;
+        /* margin-left: 50px; */
+        display: inline-block;
+    }
+
+    .brand::before {
+        /* 
+        content: url(../images/burger-logo.png);
+        position: absolute;
+        top: 0;
+        left: -50px; 
+        width: 20px;
+        vertical-align:sub ; 
+        */
+
+        background-image: url('/images/burger-logo.png');
+        background-size: 30px 30px;
+        background-repeat: no-repeat;
+        background-position-y: 12px ;
+        display: inline-block;
+        width: 40px; 
+        height: 40px;
+        content: " ";
+    }
+
+    nav ul {
+        display: inline-block;
+        float: right;
+    }
+    nav ul li {
+        color: #fff;
+        list-style: none;
+        display: inline;
+        margin-right: 1rem;
+        line-height: 4;
+        font-family: 'arial';
+        font-weight: 700;
+    }
+
+    .active {
+        color: #fbb033;
+    }
+
+    .items-container {
+        display: inline;
+        
+        float: righT;
+    }
+
+
+
+/* Header Section  */
+    header {
+        padding: 0 250px 100px;
+        background: -webkit-linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../images/banner.jpg) no-repeat;
+        background-attachment: fixed;
+        background-position: center -20px;
+    }
+
+    .slogan {
+        color: #fff;
+        font-size: 2rem;
+        font-weight: 600;
+        margin-top: 100px;
+    }
+
+    .header-introduction {
+        width: 450px;
+        padding: 10px 0 50px ;
+        color: #e4e3df;
+    }
+
+/* Meals section */
+    #meals {
+        padding: 80px 250px;
+        background-color: #f4f4f4;
+    }
+    .meal-box {
+        width: 30.3%;
+        background-color: #fff;
+        display: inline-block;
+        text-align: center;
+        margin-left: 25px;
+        padding: 30px;
+        border-radius: 13px;
+    }
+
+    .meal-header {
+        color: #343665;
+        margin: 15px auto 10px;
+        font-weight: 800;
+
+    }
+    .meal-descripton{
+        color: #a4a4e8;
+        padding-bottom: 20px;
+        font-weight: 500;
+    }
+
+    .view-button {
+        
+        text-decoration: none;
+        color: #343665;
+        font-weight: 600;
+    }
+
+/* Features Section */
+    #features {
+       padding: 0 250px;
+    }
+
+    #features img {
+        float: right;
+        width: 350px;
+    }
+
+    .feature-list {
+        padding-top: 60px;
+        margin-left: 60px;
+    }
+
+    .feature-list li {
+        color: #686b87;
+        margin-bottom: 40px;
+        font-size: 1.4rem;
+        font-weight: 600;
+        list-style: none;
+    }
+
+    
+    #features ul li::before {
+        content: '\2661'" ";
+        color: #f8a921;
+        font-size: 1.7rem;
+        font-weight: 700;
+    }
+
+/* Contact-us Section */
+    #contact-us {
+        clear: both;
+        text-align: center;
+        background: -webkit-linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../images/contact-me-bg.jpg) no-repeat;
+        padding: 120px 250px 100px;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center ;
+    }
+
+    #contact-us h3 {
+        color: #fff; 
+        margin-bottom: 40px;
+        font-size: 2rem;
+    }
+    .order-number {
+        color: #fbb033;
+    }
+/* Footer  */
+    footer {
+        background-color: #1c1d21;
+                
+    }
+    footer p {
+        color: #7f7f7f;
+        line-height: 3;
+        text-align: center;
+    }
